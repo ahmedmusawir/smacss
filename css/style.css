@@ -1,0 +1,12 @@
+a {
+  color: red; }
+
+container {
+  width: 50em; }
+
+header {
+  font-weight: bold; }
+
+body {
+  background: white;
+  font-family: 'Droid Sans', sans-serif; }
