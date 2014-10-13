@@ -1,12 +1,131 @@
-a {
-  color: red; }
-
-container {
-  width: 50em; }
-
-header {
-  font-weight: bold; }
+/*============================================
+=            this is base styling            =
+============================================*/
+/**
+*
+* General Styles
+*
+**/
+* {
+  box-sizing: border-box; }
 
 body {
-  background: white;
-  font-family: 'Droid Sans', sans-serif; }
+  font-family: 'Poiret One', cursive;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  color: #333; }
+
+p {
+  margin-bottom: 1.5em; }
+  p a {
+    text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 21px;
+  font-weight: normal; }
+
+h1 {
+  font-size: 2.827em; }
+
+h2 {
+  font-size: 1.999em; }
+
+h3 {
+  font-size: 1.414em; }
+
+h4 {
+  font-size: 1em; }
+
+h5 {
+  font-size: 0.707em; }
+
+h6 {
+  font-size: 0.5em; }
+
+blockquote {
+  margin: 0; }
+  blockquote cite {
+    display: block;
+    margin-top: 1.5em;
+    font-weight: 600;
+    font-size: 15px; }
+
+/*=====================================
+=            Layout Styles            =
+=====================================*/
+/**
+*
+* Helper Classes
+*
+**/
+.l-clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.l-align-left {
+  float: left; }
+
+.l-align-right {
+  float: right; }
+
+.l-align-center {
+  text-align: center; }
+
+/**
+*
+* General Layout
+*
+**/
+.l-container {
+  margin: 0 auto;
+  width: 80%; }
+
+.l-list-two-col,
+.l-list-three-col,
+.l-inline-list {
+  padding-left: 0;
+  margin: 0; }
+  .l-list-two-col > li,
+  .l-list-three-col > li,
+  .l-inline-list > li {
+    float: left;
+    list-style-type: none; }
+
+.l-list-two-col > li {
+  margin: 0 2%;
+  width: 46%; }
+
+.l-list-three-col > li {
+  margin: 0 1.5%;
+  width: 30%; }
+
+.l-inline-list > li {
+  margin-right: .5em; }
+
+.l-checklist > li {
+  background: transparent url("../img/checkListBullet.jpg") left center no-repeat;
+  padding-left: 1.5em; }
+
+/*=====================================
+=            Module Styles            =
+=====================================*/
+.contact-image {
+  font-size: 3em;
+  padding: 0;
+  padding-left: 1em;
+  color: crimson; }
+
+.contact-text {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 0;
+  padding: 0;
+  margin-top: -.4em; }

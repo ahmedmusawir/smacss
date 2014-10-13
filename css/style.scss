@@ -1,8 +1,5 @@
 @import "sass/base";
 @import "sass/layout";
-@import "sass/modules";
+@import "sass/module";
+@import "sass/state";
 
-body {
-	background: white;
-	font-family: 'Droid Sans', sans-serif;
-}

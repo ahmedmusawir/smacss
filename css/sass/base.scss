@@ -1,3 +1,108 @@
-a {
-	color: red;
+/*============================================
+=            this is base styling            =
+============================================*/
+
+/**
+*
+* General Styles
+*
+**/
+* {
+	box-sizing: border-box;
 }
+
+body {
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.5em;
+	-webkit-font-smoothing: antialiased;
+	
+	color: #333;
+}
+
+p {
+	margin-bottom: 1.5em;
+
+	a {
+		text-decoration: none;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 21px;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.827em;
+}
+
+h2 {
+	font-size: 1.999em;
+}
+
+h3 {
+	font-size: 1.414em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.707em;
+}
+
+h6 {
+	font-size: 0.5em;
+}
+
+blockquote {
+	margin: 0;
+
+	cite {
+		display: block;
+		margin-top: 1.5em;
+
+		font-weight: 600;
+		font-size: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
