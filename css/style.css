@@ -57,6 +57,9 @@ blockquote {
     font-weight: 600;
     font-size: 15px; }
 
+ul {
+  list-style-type: none; }
+
 /*=====================================
 =            Layout Styles            =
 =====================================*/
@@ -86,7 +89,8 @@ blockquote {
 **/
 .l-container {
   margin: 0 auto;
-  width: 80%; }
+  width: 80%;
+  margin-top: 2em; }
 
 .l-list-two-col,
 .l-list-three-col,
@@ -111,12 +115,57 @@ blockquote {
   margin-right: .5em; }
 
 .l-checklist > li {
-  background: transparent url("../img/checkListBullet.jpg") left center no-repeat;
+  background: transparent url("../img/checkListBullet.jpg") left 8px no-repeat;
   padding-left: 1.5em; }
+
+ul.l-list-vertical {
+  margin: 0;
+  padding: 0; }
+  ul.l-list-vertical > li {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px dotted #ccc; }
+    ul.l-list-vertical > li:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none; }
+
+.l-floated-image {
+  margin-right: 1em; }
+
+.l-floated-content {
+  margin: -.5em 0 0 4.5em; }
+
+.l-hero-unit {
+  margin-left: 3em;
+  margin-top: -1em;
+  width: 50%; }
+
+/*==============================
+=            Header            =
+==============================*/
+#main-header {
+  padding: 1em 0;
+  background-color: #dae3e3;
+  border-bottom: 1px solid #D1D8DC;
+  box-shadow: 0 1px 0 #F3F5F6; }
+
+/*==============================
+=            Footer            =
+==============================*/
+#main-footer {
+  padding: 1.5em;
+  background-color: #eff1f3;
+  border-top: 1px solid #D1D8DC; }
+  #main-footer p {
+    margin: 0; }
 
 /*=====================================
 =            Module Styles            =
 =====================================*/
+.contact-info {
+  margin-top: -2.5em; }
+
 .contact-image {
   font-size: 3em;
   padding: 0;
@@ -129,3 +178,15 @@ blockquote {
   line-height: 0;
   padding: 0;
   margin-top: -.4em; }
+
+/*==========  Social Media  ==========*/
+.social-media a {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  font-size: 2em;
+  padding: .5em; }
+
+.top-social {
+  margin-top: -3.3em;
+  margin-right: 2em; }

@@ -34,6 +34,7 @@
 .l-container {
 	margin: 0 auto;
 	width: 80%;
+	margin-top: 2em;
 }
 
 .l-list-two-col,
@@ -70,11 +71,72 @@
 
 .l-checklist {
 	> li {
-		background: transparent url('../img/checkListBullet.jpg') left center no-repeat;
+		background: transparent url('../img/checkListBullet.jpg') left 8px no-repeat;
 		padding-left: 1.5em;
-		// line-height: 1.5em;
 	}
 }
+
+ul.l-list-vertical {
+	margin: 0;
+	padding: 0;
+
+
+	> li {
+		margin-bottom: 1.5em;
+		padding-bottom: 1.5em;
+
+		border-bottom: 1px dotted #ccc;
+
+		&:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+
+			border-bottom: none;
+		}
+	}
+}
+
+.l-floated-image {
+	margin-right: 1em;
+}
+
+.l-floated-content {
+	margin: -.5em 0 0 4.5em;
+}
+
+.l-hero-unit {
+	margin-left: 3em;
+	margin-top: -1em;
+	width: 50%;
+}
+
+/*==============================
+=            Header            =
+==============================*/
+
+#main-header {
+	padding: 1em 0;
+	background-color: darken(#F7F9F9, 10%);
+	border-bottom: 1px solid #D1D8DC;
+	box-shadow: 0 1px 0 #F3F5F6;
+}
+
+/*==============================
+=            Footer            =
+==============================*/
+
+#main-footer {
+	padding: 1.5em;
+	background-color: #eff1f3;
+	border-top: 1px solid #D1D8DC;
+
+	p {
+		margin: 0;
+	}
+}
+
+
+
 
 
 
