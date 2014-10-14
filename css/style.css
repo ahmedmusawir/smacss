@@ -246,6 +246,7 @@ hr {
 .custom-form input[type="email"],
 .custom-form textarea {
   padding: .75em;
+  width: 100%;
   border: 1px solid;
   border-radius: 5px;
   outline: none; }
