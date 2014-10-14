@@ -57,9 +57,6 @@ blockquote {
     font-weight: 600;
     font-size: 15px; }
 
-ul {
-  list-style-type: none; }
-
 /*=====================================
 =            Layout Styles            =
 =====================================*/
@@ -118,14 +115,15 @@ ul {
   background: transparent url("../img/checkListBullet.jpg") left 8px no-repeat;
   padding-left: 1.5em; }
 
-ul.l-list-vertical {
+.l-list-verticle {
   margin: 0;
   padding: 0; }
-  ul.l-list-vertical > li {
+  .l-list-verticle > li {
     margin-bottom: 1.5em;
     padding-bottom: 1.5em;
-    border-bottom: 1px dotted #ccc; }
-    ul.l-list-vertical > li:last-child {
+    border-bottom: 2px dotted #e6e6e6;
+    list-style-type: none; }
+    .l-list-verticle > li:last-child {
       margin-bottom: 0;
       padding-bottom: 0;
       border-bottom: none; }
@@ -146,7 +144,7 @@ ul.l-list-vertical {
 ==============================*/
 #main-header {
   padding: 1em 0;
-  background-color: #dae3e3;
+  background-color: #e8eeeb;
   border-bottom: 1px solid #D1D8DC;
   box-shadow: 0 1px 0 #F3F5F6; }
 
@@ -163,6 +161,7 @@ ul.l-list-vertical {
 /*=====================================
 =            Module Styles            =
 =====================================*/
+/*==========  Contact Info  ==========*/
 .contact-info {
   margin-top: -2.5em; }
 
@@ -184,9 +183,69 @@ ul.l-list-vertical {
   display: inline-block;
   height: 24px;
   width: 24px;
-  font-size: 2em;
-  padding: .5em; }
+  font-size: 1.5em;
+  padding: .4em; }
 
 .top-social {
-  margin-top: -3.3em;
-  margin-right: 2em; }
+  margin-top: -2.7em;
+  margin-right: 0em; }
+
+/*==========  Price Box  ==========*/
+.bordered-box {
+  border: 5px solid #f4f5f7;
+  border-radius: 10px; }
+
+.bordered-box-content {
+  padding: 1.5em; }
+
+.price-box {
+  background-color: #fff;
+  font-size: 18px;
+  text-align: center; }
+  .price-box .bordered-box-content {
+    padding: 0 1.5em; }
+
+.price-box-footer {
+  padding: 1em 1.5em;
+  background-color: #2b333d;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; }
+
+/*==========  Buttons  ==========*/
+.button {
+  display: inline-block;
+  padding: .75em 1.5em;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.primary {
+  font-size: 18px; }
+
+.secondary {
+  border: 1px solid; }
+
+/*==========  HR  ==========*/
+hr {
+  height: 55px;
+  margin-top: 3em;
+  background: transparent url("../img/horizontalSeparator.jpg") center center no-repeat;
+  border: none; }
+
+/*==========  Testimonials  ==========*/
+.bordered-box-header {
+  padding: 1.5em;
+  background-color: #eff1f3; }
+  .bordered-box-header p {
+    margin: 0;
+    font-weight: bold; }
+
+/*==========  Forms  ==========*/
+.custom-form input[type="text"],
+.custom-form input[type="email"],
+.custom-form textarea {
+  padding: .75em;
+  border: 1px solid;
+  border-radius: 5px;
+  outline: none; }
